@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Info</title>
+</head>
+
+<body>
+    <div id="content">
+        <div class="div_form">
+            <form>
+                <input type="text" id="inpt_location" name="location" placeholder="Buenos Aires" pattern="[a-zA-Z]+"
+                    required>
+                <button type="button" id="btn_search">Buscar</button>
+            </form>
+            <div id="div_error">
+                <h1 id="txt_errorMessage"></h1>
+            </div>
+        </div>
+        <div>
+            <h1 id="txt_temperature"></h1>
+        </div>
+        <div>
+
+        </div>
+    </div>
+</body>
+<script src="WeatherAppLogic.js"></script>
+
+</html>
